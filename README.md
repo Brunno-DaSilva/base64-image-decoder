@@ -11,10 +11,10 @@ This is a simple web-based application that allows users to input a Base64-encod
 
 ## ⚙️ How It Works
 
-- Input Field: The user provides a Base64-encoded image string in an input field.
-- Decode Button: When clicked, it decodes the Base64 string and displays the image in an <img> element.
-- Copy Button: After decoding the image, the user can click the "Copy Image" button to copy the image to their clipboard.
-- Error Handling: If the input field is empty, an error message will be shown.
+- **Input Field:** The user provides a Base64-encoded image string in an input field.
+- **Decode Button:** When clicked, it decodes the Base64 string and displays the image in an <img> element.
+- **Copy Button:** After decoding the image, the user can click the "Copy Image" button to copy the image to their clipboard.
+- **Error Handling:** If the input field is empty, an error message will be shown.
 
 ## 💻 Code Overview
 
@@ -22,15 +22,15 @@ This app uses vanilla JavaScript to process the Base64 image string, display the
 
 **🔑 Key JavaScript Functions**
 
-1. proccessBase64Image(base64ImgString):
+1. **proccessBase64Image(base64ImgString):**
 
    - Decodes the provided Base64 string and sets the decoded image as the source for the <img> element.
    - Handles errors if the Base64 string is invalid.
 
-2. Event Listeners:
+2. **Event Listeners:**
    - Blur Event on Input Field: Displays an error message if the input is empty.
-   - Click Event on Decode Button: Decodes the image when the button is clicked. Displays an error message if the input is empty.
-   - Click Event on Copy Button: Copies the decoded image to the clipboard as a PNG image.
+   - **Click Event on Decode Button:** Decodes the image when the button is clicked. Displays an error message if the input is empty.
+   - **Click Event on Copy Button: **Copies the decoded image to the clipboard as a PNG image.
 
 ## 📝 How to Use:
 
