@@ -4,7 +4,7 @@ const inputError = document.getElementById("input-error");
 const img = document.getElementById("face-image");
 const copyButton = document.getElementById("copy-button");
 
-const proccessBase64Image = (base64ImgString) => {
+const processBase64Image = (base64ImgString) => {
   try {
     if (!base64ImgString) {
       console.error("Base64 image data not found.");
