@@ -2,7 +2,7 @@
 
 This is a simple web-based application that allows users to input a Base64-encoded image string, decode it, display the image on the page, and copy the decoded image to the clipboard.
 
-#### Demo https://base64-image-decoder.netlify.app/
+#### Demo [https://base64-image-decoder](https://base64-image-decoder.netlify.app/)
 
 ## 🔧 Features
 
