@@ -54,7 +54,12 @@ copyButton.addEventListener("click", () => {
       navigator.clipboard
         .write([clipboardItem])
         .then(() => {
+          // TODO: Change this alert to a toast notification
           alert("Image copied to clipboard!");
+          base64ImgInput.value = "";
+          img.style.display = "none";
+          img.src = "";
+          inputError.style.display = "none";
         })
         .catch((err) => {
           console.error("Error copying image: ", err);
