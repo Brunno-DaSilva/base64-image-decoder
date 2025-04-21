@@ -36,9 +36,9 @@ decodeButton.addEventListener("click", () => {
   } else {
     inputError.style.display = "none";
     img.style.display = "block";
-    proccessBase64Image(value);
+    processBase64Image(value);
   }
-  proccessBase64Image(base64ImgInput.value.trim());
+  processBase64Image(base64ImgInput.value.trim());
 });
 
 copyButton.addEventListener("click", () => {
