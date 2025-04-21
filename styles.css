@@ -87,6 +87,7 @@ input:focus {
   align-items: center;
   gap: 1rem;
   justify-content: center;
+  margin-bottom: 1.5rem;
 }
 
 button {
@@ -99,6 +100,10 @@ button {
   font-size: 16px;
   cursor: pointer !important;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 button:hover {
@@ -111,10 +116,15 @@ button:focus {
   outline-offset: 3px;
 }
 
-#copy-button {
+#copy-button,
+#clear-button {
   background-color: #ffffff !important;
   color: #6a1e9c !important;
   border: 1px solid #6a1e9c !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 small {

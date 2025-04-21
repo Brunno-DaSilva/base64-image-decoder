@@ -3,6 +3,7 @@ const decodeButton = document.getElementById("decode-button");
 const inputError = document.getElementById("input-error");
 const img = document.getElementById("face-image");
 const copyButton = document.getElementById("copy-button");
+const clearButton = document.getElementById("clear-button");
 
 const processBase64Image = (base64ImgString) => {
   try {
@@ -66,4 +67,11 @@ copyButton.addEventListener("click", () => {
         });
     });
   }
+});
+
+clearButton.addEventListener("click", () => {
+  base64ImgInput.value = "";
+  img.style.display = "none";
+  img.src = "";
+  inputError.style.display = "none";
 });
