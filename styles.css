@@ -93,7 +93,6 @@ input:focus {
 button {
   padding: 10px 20px;
   background-color: #4b0082;
-  /* Purple button */
   color: white;
   border: none;
   border-radius: 5px;
